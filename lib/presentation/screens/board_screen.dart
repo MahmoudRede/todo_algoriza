@@ -3,6 +3,7 @@ import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:to_do_algoriza/business_logic/app_cubit/app_cubit.dart';
 import 'package:to_do_algoriza/business_logic/app_cubit/app_states.dart';
+import 'package:to_do_algoriza/data/local/notification_helper.dart';
 import 'package:to_do_algoriza/presentation/screens/add_task.dart';
 import 'package:to_do_algoriza/presentation/screens/all_tasks.dart';
 import 'package:to_do_algoriza/presentation/screens/completed_tasks.dart';
@@ -14,8 +15,25 @@ import 'package:to_do_algoriza/presentation/styles/icon_broken.dart';
 import 'package:to_do_algoriza/presentation/widgets/button_manager.dart';
 import 'package:to_do_algoriza/presentation/widgets/text_manager.dart';
 
-class BoardScreen extends StatelessWidget {
-  const BoardScreen({Key? key}) : super(key: key);
+class BoardScreen extends StatefulWidget {
+  BoardScreen({Key? key}) : super(key: key);
+
+
+  @override
+  State<BoardScreen> createState() => _BoardScreenState();
+}
+
+class _BoardScreenState extends State<BoardScreen> {
+
+  var notifyHelper;
+  @override
+  void initState() {
+    // TODO: implement initState
+    super.initState();
+    notifyHelper = NotifyHelper();
+    notifyHelper.initializeNotification();
+    notifyHelper.requestIOSPermissions();
+  }
 
   @override
   Widget build(BuildContext context) {

@@ -85,7 +85,6 @@ class TodoCubit extends Cubit<TodoStates>{
         required String end,
         required String remind,
         required String repeat,
-        // int ?colorN,
       }) async{
 
     return database?.transaction((txn) {
@@ -106,10 +105,6 @@ class TodoCubit extends Cubit<TodoStates>{
     });
 
   }
-
-
-
-
 
 
   Future <List<Map>> getDatabase(database)async {

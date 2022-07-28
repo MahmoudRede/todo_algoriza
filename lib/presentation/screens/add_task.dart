@@ -3,6 +3,7 @@ import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:intl/intl.dart';
 import 'package:to_do_algoriza/business_logic/app_cubit/app_cubit.dart';
 import 'package:to_do_algoriza/business_logic/app_cubit/app_states.dart';
+import 'package:to_do_algoriza/data/local/notification_helper.dart';
 import 'package:to_do_algoriza/presentation/styles/colors.dart';
 import 'package:to_do_algoriza/presentation/views/remind_drop_down.dart';
 import 'package:to_do_algoriza/presentation/views/repeat_drop_down.dart';
@@ -10,8 +11,24 @@ import 'package:to_do_algoriza/presentation/widgets/button_manager.dart';
 import 'package:to_do_algoriza/presentation/widgets/form_field.dart';
 import 'package:to_do_algoriza/presentation/widgets/text_manager.dart';
 
-class AddTask extends StatelessWidget {
+class AddTask extends StatefulWidget {
   const AddTask({Key? key}) : super(key: key);
+
+  @override
+  State<AddTask> createState() => _AddTaskState();
+}
+
+class _AddTaskState extends State<AddTask> {
+
+  var notifyHelper;
+  @override
+  void initState() {
+    // TODO: implement initState
+    super.initState();
+    notifyHelper = NotifyHelper();
+    notifyHelper.initializeNotification();
+    notifyHelper.requestIOSPermissions();
+  }
 
   @override
   Widget build(BuildContext context) {
@@ -155,6 +172,16 @@ class AddTask extends StatelessWidget {
                           remind: cubit.remindValue,
                           repeat: cubit.repeatValue,
                       );
+
+                      notifyHelper.scheduledNotification(
+                        title:cubit.titleController.text,
+                        content:TodoCubit.get(context).remindValue,
+                        id:5
+                      );
+
+                      print(DateTime.now().hour.toString());
+                      print(cubit.startTimeController.text);
+
                     })
 
 
