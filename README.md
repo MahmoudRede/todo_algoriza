@@ -1,16 +1,17 @@
 # to_do_algoriza
 
-A new Flutter project.
+<h1 align="center">Algoriza Intern Task1</h1>
+<img align="left" width="350" src="https://firebasestorage.googleapis.com/v0/b/buy-it-736d7.appspot.com/o/WhatsApp%20Image%202022-07-28%20at%205.01.25%20AM.jpeg?alt=media&token=fa8628f9-2aed-4363-a096-2d780f7b1a43" alt="mahmoudreda" />
 
-## Getting Started
+<img align="left" width="350" src="https://firebasestorage.googleapis.com/v0/b/buy-it-736d7.appspot.com/o/WhatsApp%20Image%202022-07-28%20at%205.01.28%20AM.jpeg?alt=media&token=fc81faab-2a26-4cc8-b38c-cca168739f99" alt="mahmoudreda" />
 
-This project is a starting point for a Flutter application.
+</br></br>
 
-A few resources to get you started if this is your first Flutter project:
+<img align="right" width="350" src="https://firebasestorage.googleapis.com/v0/b/buy-it-736d7.appspot.com/o/WhatsApp%20Image%202022-07-28%20at%205.01.27%20AM.jpeg?alt=media&token=f8ec3ed6-c8b2-49b7-80d6-686e49a6428e" alt="mahmoudreda" />
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+<img align="left" width="350" src="https://firebasestorage.googleapis.com/v0/b/buy-it-736d7.appspot.com/o/WhatsApp%20Image%202022-07-28%20at%205.01.26%20AM.jpeg?alt=media&token=ed16719f-c5da-4095-99b4-5f8e0545278b" alt="mahmoudreda" />
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+</br></br>
+
+
+<img align="left" width="350" src="https://firebasestorage.googleapis.com/v0/b/buy-it-736d7.appspot.com/o/WhatsApp%20Image%202022-07-28%20at%205.01.29%20AM.jpeg?alt=media&token=0fb2cb04-d533-4b3a-862f-eebd6a656add" alt="mahmoudreda" />
