@@ -5,7 +5,7 @@ import 'package:to_do_algoriza/business_logic/app_cubit/app_cubit.dart';
 import 'package:to_do_algoriza/business_logic/app_cubit/app_states.dart';
 import 'package:to_do_algoriza/presentation/screens/add_task.dart';
 import 'package:to_do_algoriza/presentation/screens/all_tasks.dart';
-import 'package:to_do_algoriza/presentation/screens/board_screen.dart';
+import 'package:to_do_algoriza/presentation/layouts/board_screen.dart';
 import 'package:to_do_algoriza/presentation/screens/schedule_screen.dart';
 import 'package:to_do_algoriza/presentation/styles/colors.dart';
 void main() {
