@@ -6,10 +6,9 @@
 
 <img align="left" width="350" src="https://firebasestorage.googleapis.com/v0/b/buy-it-736d7.appspot.com/o/WhatsApp%20Image%202022-07-28%20at%205.01.25%20AM.jpeg?alt=media&token=fa8628f9-2aed-4363-a096-2d780f7b1a43" alt="mahmoudreda" />
 
-</br></br></br></br></br>
+</br></br></br></br></br></br></br></br></br></br>
 
-
-<h3 align="left">Home Screen Screen</h3>
+<h3 align="left">Home Screen </h3>
 
 
 <img align="left" width="350" src="https://firebasestorage.googleapis.com/v0/b/buy-it-736d7.appspot.com/o/WhatsApp%20Image%202022-07-28%20at%205.01.28%20AM.jpeg?alt=media&token=fc81faab-2a26-4cc8-b38c-cca168739f99" alt="mahmoudreda" />
